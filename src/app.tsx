@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './App.css';
-// import {Router, Route} from 'react-router';
+import {Router, Route, browserHistory} from 'react-router';
 
 import logo from './logo.svg';
 import {Home} from './components/Home';
@@ -10,7 +10,7 @@ class App extends React.Component {
     public render() {
         return (
             <div className="App">
-                <Router>
+                <Router history={browserHistory}>
                     <Route path="/" exact={true} component={Login as any}/>
                     <Route path="/home" component={Home as any}/>
                 </Router>
