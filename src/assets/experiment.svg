@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 841.9 595.3">
+    <g fill="#FF923D">
+        <circle cx="420.9" cy="300" r="115.7"/>
+
+    </g>
+    <path d="M80 80
+           A 45 45, 0, 0, 0, 125 125
+           L 125 80 Z" fill="green"/>
+    <path d="M230 80
+           A 45 45, 0, 1, 0, 275 125
+           L 275 80 Z" fill="red"/>
+    <path d="M80 230
+           A 45 45, 0, 0, 1, 125 275
+           L 125 230 Z" fill="purple"/>
+    <path d="M230 230
+           A 45 45, 0, 1, 1, 275 275
+           L 275 230 Z" fill="blue"/>
+
+    <!--<path d="M10 10 H 90 V 90 H 10 Z" fill="blue" stroke="green"/>-->
+
+    <!--<path d="M10 10 h 80 v 80 h -80 Z" fill="transparent" stroke="black"/>-->
+
+    <text x="10" y="20" style="fill:red;">Several lines:
+        <tspan x="10" y="45">First line.</tspan>
+        <tspan x="10" y="70">Second line.</tspan>
+    </text>
+
+    <polyline points="0,40 40,40 40,80 80,80 80,120 120,120 120,160"
+              style="fill:white;stroke:red;stroke-width:4" />
+
+    <polyline points="20,20 40,25 60,40 80,120 120,140 200,180"
+              style="fill:none;stroke:#FF923D;stroke-width:3" />
+
+    <path d="M10 315
+           L 110 215
+           A 30 50 0 0 1 162.55 162.45
+           L 172.55 152.45
+           A 30 50 -45 0 1 215.1 109.9
+           L 315 10" stroke="black" fill="green" stroke-width="2" fill-opacity="0.5"/>
+
+    <path d="M10 315
+           L 110 215
+           A 36 60 0 0 1 150.71 170.29
+           L 172.55 152.45
+           A 30 50 -45 0 1 215.1 109.9
+           L 315 10" stroke="black" fill="green" stroke-width="2" fill-opacity="0.5"/>
+
+</svg>
