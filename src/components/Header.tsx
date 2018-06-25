@@ -1,8 +1,10 @@
-import { faFirstOrderAlt} from '@fortawesome/free-brands-svg-icons';
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import * as React from 'react';
+
 import {Link} from 'react-router-dom'
 import './Header.css';
+
+import { faFirstOrderAlt} from '@fortawesome/free-brands-svg-icons';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
 
 export class Header extends React.Component<any, any> {

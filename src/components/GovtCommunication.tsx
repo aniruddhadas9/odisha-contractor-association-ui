@@ -1,6 +1,9 @@
-import * as React from 'react';
-import {Link, Route} from 'react-router-dom'
+import {Link, Route} from 'react-router-dom';
 import {Home} from './Home';
+import * as React from 'react';
+
+
+
 
 export class GovtCommunication extends React.Component<any, any> {
 

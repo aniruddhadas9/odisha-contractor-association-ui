@@ -1,7 +1,7 @@
 import * as React from 'react';
 import {BrowserRouter , Route} from 'react-router-dom';
 import './App.css';
-import {Footer} from './components/Footer';
+import {Footer} from './components/footer/Footer';
 import {GovtCommunication} from './components/GovtCommunication';
 import {Header} from './components/Header';
 import {Home} from './components/Home';
